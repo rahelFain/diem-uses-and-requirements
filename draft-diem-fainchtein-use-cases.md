@@ -104,6 +104,11 @@ informative:
     title: Personnel of Foreign Governments and International Organizations and Special Treatment for Returning Individuals
     author:
        org: Cornell Law School - Legal Information Institute
+  RAMSAR:
+    target: https://www.ramsar.org
+    title: The Convention on Wetlands
+    author:
+       org: Convention on Wetlands Secretariat
   ISPM15:
     target: https://www.ippc.int/static/media/files/publication/en/2019/02/ISPM_15_2018_En_WoodPackaging_Post-CPM13_Rev_Annex1and2_Fixed_2019-02-01.pdf
     title: "International Standards for Phytosanitary Measures No. 15: Regulation of Wood Packaging Material in International Trade"
@@ -119,12 +124,6 @@ informative:
     title: "Harmonized System"
     author:
        org: World Customs Organization
-
-  RAMSAR:
-    target: https://www.ramsar.org
-    title: The Convention on Wetlands
-    author:
-       org: Convention on Wetlands Secretariat
 ...
 
 --- abstract
@@ -140,7 +139,7 @@ mis-use under the Paris Convention, the Madrid Protocol, and the Trade-Related A
 This document provides an initial summary of problems placing emblems into digital use cases 
 and documents identified requirements
 from a number of stakeholders with active or potential interests in digital emblems.
-To Do: align abstract as well as document with the WG charter.
+To Do: align abstract and document with the WG charter.
 
 
 --- middle
@@ -158,13 +157,13 @@ pouches, couriers, and envoys {{DIPLOMAT}}, and international law protects certa
 
 {::boilerplate bcp14-tagged}
 
-# Threat Model for Physical Emblems
+# Limitations of Physical Emblems
 
 Physical emblems have served a number of key functions over hundreds of years and continue to do so to this day.
 As technology advances and newer capabilities become
 available, it is beneficial to examine limitations with existing emblems and identify potential needs going forward.
 
-The following describes a number of weaknesses with physical emblems.
+The following describes a number of limitations with physical emblems that may be addressed with digital emblems as complements.
 
 ## Authenticity
 
@@ -179,10 +178,9 @@ an oblique angle. The visibility of a physical emblem may be affected by wear, v
 
 ## Mis-use
 
-Physical emblems do not provide sufficient context to indicate the validity of their observed use. Physical emblems requested for use in a specific
-location and/or at a certain time can be re-used at other locations or times that are not authorized. No mechanism exists to correlate the
-validity of a physical emblem with specific locations, times, items, or people subject to protection. Such abuse is similar to known security
-attacks (replay, time-shifting, and location-shifting attacks).
+Physical emblems may not provide sufficient context to indicate the validity of their observed use. Physical emblems requested for use in a specific
+location and/or at a certain time can be re-used at other locations or times that are not authorized. Limited capabilities exist to correlate the
+validity of a physical emblem with specific locations, times, items, or people subject to protection. 
 
 ## Management
 
@@ -191,63 +189,63 @@ the instance of a physical emblem that has been abused, compromised, or is no lo
 
 # Notional Requirements for Digital Emblems
 
-The above list of weaknesses highlights the need for an emblem approach that meets a number of requirements to perform its function
-properly under international law. Because there are multiple use cases for digital emblems, some of which are fundamentally different
-from one another, it is not presumed that any one use of a digital emblem would necessarily have every single one of these requirements
+Because there are multiple use cases for digital emblems, some of which are fundamentally different
+from one another, it is not presumed that any one use of a digital emblem would necessarily have all or most of these requirements
 for a given implementation. In this vein, the working group will identify a core set of baseline requirements for digital emblems.
-Additional use cases will require further extensions. 
+Additional use cases will require further extensions. ToDo: move potential requirements which are outside the initial scope of the WG to a separate section.
 
-## Identification Requirements
+## Potential Identification Requirements
 
-A digital emblem capable of acting as an official marking of legal significance needs to be identifiable by its intended legal purpose
-and what assets it applies to. To do this, digital emblems...
+A digital emblem capable of acting as an official marking of legal significance needs to be identifiable by its intended purpose
+and what assets it applies to. To do this, digital emblems may have these requirements (identified by in relation to diverse use cases).  Requirements of particular use cases will vary.
 
-- MUST provide a clearly detectable and unambiguous marking mappable to enable verification,
-- MUST be machine-readable to enable automated verification,
-- MUST be capable of carrying a visual representation of the physical emblem it represents,
-- MUST carry an unambiguous indication of the international law or laws conferring protection upon the entity marked with the emblem,
-- MUST be possible to associate with a range or specific quantity of persons or items,
-- MUST be possible to associate with online services (e.g., websites, email servers, databases),
-- MUST be possible to associate with data in transit or at rest,
-- MUST be possible to associate with network-addressable equipment (e.g., routers, servers, laptops, IoT devices),
-- MUST be possible to associate with a physical object (e.g., building, vehicle, container),
-- MUST be possible to associate with a person or group of people
+- Provide a clearly detectable and unambiguous marking mappable to enable verification,
+- Be machine-readable to enable automated verification,
+- Be capable of carrying a visual representation of the physical emblem it represents,
+- Carry an unambiguous indication of the international law, laws or agreement pertaining to the entity marked with the emblem,
+- Be possible to associate with a range or specific quantity of persons or items,
+- Be possible to associate with online services (e.g., websites, email servers, databases),
+- Be possible to associate with data in transit or at rest,
+- Be possible to associate with network-addressable equipment (e.g., routers, servers, laptops, IoT devices),
+- Be possible to associate with a physical object (e.g., building, vehicle, container),
+- Be possible to associate with a person or group of people
 
-## Distribution Requirements
+## Potential Distribution Requirements
 
-A digital emblem applicable to a variety of physical and digital assets will need to support a variety of discovery mechanisms
-to ensure emblem verification is a practical process international law can enforce. Practicality can mean multiple things, including
+A digital emblem applicable to a variety of physical and digital assets will need to support discovery mechanisms
+to ensure emblem verification is a practical process. Practicality can mean multiple things, including
 minimizing the risk that verifying emblems will disclose verifier presence or behavior, minimizing the cost of verifying digital
 emblems, and ensuring universal access to emblem-bearing for legally entitled assets.
 
-To accomplish practical emblem distribution, digital emblems...
+To accomplish practical emblem distribution, digital emblems can have requirements to...
 
-- MUST NOT impose an undue cost to verify,
-- MUST NOT impose an undue cost to apply to or remove from an asset,
-- MUST NOT impose an undue cost to acquire authority to deploy,
-- MUST NOT require verifiers of the emblem to reveal to the emblem bearer that existence checking is occurring,
-- SHOULD be possible to view an emblem in-band via a communications network, optically (e.g., QR code), or wirelessly (e.g., RFID).
+- Not impose an undue cost to verify,
+- Not impose an undue cost to apply to or remove from an asset,
+- Not impose an undue cost to acquire authority to deploy,
+- Not require verifiers of the emblem to reveal to the emblem bearer that existence checking is occurring,
+- Make it possible to view an emblem via a communications network,
+- Make it possible to view an emblem optically (e.g. QR code), or wirelessly (e.g. RFID) ToDo: this is an example of a potential requirement that will be outside the initial scope of the working group.
 
-## Trust model requirements
+## Potential Trust model requirements
 
 A digital emblem needs to be trustworthy in order to provide any value. This means that parties verifying the presence of emblems need to
-know that the asset bearing an emblem is entitled to do so for the declared asset, time frame, and other scopes. Therefore, digital emblems...
+know that the asset bearing an emblem is entitled to do so for the declared asset, time frame, and other scopes. 
 
-- MUST be authorized by a party that has the legal authority to issue it,
-- MUST identify the authorizing party that issued it to ensure accountability of emblem use,
-- MUST carry an unambiguous indication of the international law or laws conferring protection upon the entity marked with the emblem,
-- MUST be capable of providing a reference to additional relevant information (e.g., photographs, unique identifiers) which can be used to corroborate the association of the digital emblem with the entity bearing it,
-- MUST be revocable when they are no longer valid,
-- MUST be restrictable by temporal scope,
-- MUST be restrictable by geographic scope,
-- MUST be robust against being replayed by invalid bearers,
-- MUST be robust against forgery of its various properties.i
+- Be authorized by a party that has the legal authority to issue it,
+- Identify the authorizing party that issued it to ensure accountability of emblem use,
+- Carry an unambiguous indication of the international law or laws conferring protection upon the entity marked with the emblem,
+- Be capable of providing a reference to additional relevant information (e.g., photographs, unique identifiers) which can be used to corroborate the association of the digital emblem with the entity bearing it,
+- Be revocable when they are no longer valid,
+- Be restrictable by temporal scope,
+- Be restrictable by geographic scope,
+- Be robust against being replayed by invalid bearers,
+- Be robust against forgery of its various properties.
 
 # Security Considerations
 
-A key part of this document highlights the risks surrounding physical emblems. Technical implementations of digital emblems will undoubtedly
-incur their own security considerations. However, this document does not propose technical solutions; it enumerates the use cases that justify
-creating technical solutions and what requirements are imposed on such solutions.
+A key part of this document highlights some risks surrounding physical emblems. Technical implementations of digital emblems will undoubtedly
+incur their own security considerations. However, this document does not propose technical solutions; it enumerates  use cases that justify
+creating technical solutions and potential requirements.  Many of the potential requirements pertain to possible security and privacy directions.
 
 
 # IANA Considerations
@@ -265,17 +263,17 @@ Tommy Jensen, Felix Linker and Mauro Vignati provided many of the requirements t
 
 TODO acknowledge.
 
-# Use Cases for a digital emblem
+# Use Cases for Digital Emblems
 Digital emblems are verifiable labels that can be associated with an entity so
 that a verifier can prove that the entity (person, place, or thing) has some property the digital emblem represents.
-This is a list of use cases that necessitate the creation of one or more standards for
+This is a collection of brief use cases that necessitate the creation of one or more standards for
 digital emblems to be used to express some status of the entity bearing them.
 Each use case contains a list of potential attributes to associate with the entity as a
 part of the emblem. It is assumed that each use case would contain a link or reference to the
 law, regulation, or policy that governs the protections granted under the emblem.
 
 These use cases come from discussions with the organizations identified. This is a representative (not exhaustive) list
-of use cases for a digital emblem.
+of use cases for digital emblems.
 
 ## International Committee of the Red Cross (ICRC)
 The ICRC is responsible for the visual Red Cross, Red Crescent, and Red Crystal emblems
@@ -351,6 +349,13 @@ Regulates the trans-boundary movement of hazardous wastes. Use cases are functio
 ## Press
 Journalists in conflict zones require protective markings that indicate their status as a non-combatant.
 
+## Ramsar Convention on the Wetlands (UNESCO)
+The Convention on Wetlands of International Importance especially as Waterfowl Habitat "providees the single most global framework for intergovernmental cooperation on wetland issues" and it features a list of geographic areas designated by Member States.  A digital emblem for the geographic areas potentially requires
+* Indication of location
+* Access to presence or absence of Ramsar designation of a specified location
+* Textual description
+* Ability to validate the presence or absence of Ramsar designation
+
 ## World Intellectual Property Organization (WIPO)
 WIPO administers 26+ treaties with different protections for different things. Brands that are
 protected under international law (e.g., Madrid Protocol) can mark their shipments with an emblem
@@ -390,10 +395,3 @@ Specifies "Harmonized Systems" codes {{HARMONIZED}} that classify items such as 
 machinery, foodstuffs, etc. They also provide a system for labeling origin of items and valuation of items, all
 enforced by numerous international trade agreements between individual nations and groups of nations.
 
-## Ramsar Convention on the Wetlands (UNESCO)
-The Convention on Wetlands of International Importance especially as Waterfowl Habitat "providees the single most global framework for intergovernmental cooperation on wetland issues" and it features a list of geographic areas designated by Member States.  A digital emblem for the geographic areas potentially requires
-
-* Indication of location
-* Access to presence or absence of Ramsar designation of a specified location
-* Textual description
-* Ability to validate the presence or absence of Ramsar designation
