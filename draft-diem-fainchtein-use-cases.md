@@ -32,9 +32,6 @@ v: 3
 area: AREA
 workgroup: DIEM Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
 venue:
   group: WG
   type: Working Group
@@ -197,7 +194,7 @@ Additional use cases will require further extensions. ToDo: move potential requi
 ## Potential Identification Requirements
 
 A digital emblem capable of acting as an official marking of legal significance needs to be identifiable by its intended purpose
-and what assets it applies to. To do this, digital emblems may have these requirements (identified by in relation to diverse use cases).  Requirements of particular use cases will vary.
+and what assets it applies to. To do this, digital emblems may have these requirements (identified in relation to diverse use cases).  Requirements of particular use cases will vary.
 
 - Provide a clearly detectable and unambiguous marking mappable to enable verification,
 - Be machine-readable to enable automated verification,
@@ -223,6 +220,7 @@ To accomplish practical emblem distribution, digital emblems can have requiremen
 - Not impose an undue cost to apply to or remove from an asset,
 - Not impose an undue cost to acquire authority to deploy,
 - Not require verifiers of the emblem to reveal to the emblem bearer that existence checking is occurring,
+- Not prevent verifiers of the emblem from revealing to the emblem bearer that existence checking is occurring,
 - Make it possible to view an emblem via a communications network,
 - Make it possible to view an emblem optically (e.g. QR code), or wirelessly (e.g. RFID) ToDo: this is an example of a potential requirement that will be outside the initial scope of the working group.
 
@@ -247,21 +245,6 @@ A key part of this document highlights some risks surrounding physical emblems. 
 incur their own security considerations. However, this document does not propose technical solutions; it enumerates  use cases that justify
 creating technical solutions and potential requirements.  Many of the potential requirements pertain to possible security and privacy directions.
 
-
-# IANA Considerations
-
-This document has no IANA actions.
-
-# Contributors
-Tony DeSimone, Kerstin Vignard, and Erin Hahn provided insight into the legal and policy issues surrounding emblems.
-Tommy Jensen, Felix Linker and Mauro Vignati provided many of the requirements that derive from digital asset use cases.
-
---- back
-
-# Acknowledgments
-{:numbered="false"}
-
-TODO acknowledge.
 
 # Use Cases for Digital Emblems
 Digital emblems are verifiable labels that can be associated with an entity so
@@ -395,3 +378,17 @@ Specifies "Harmonized Systems" codes {{HARMONIZED}} that classify items such as 
 machinery, foodstuffs, etc. They also provide a system for labeling origin of items and valuation of items, all
 enforced by numerous international trade agreements between individual nations and groups of nations.
 
+# IANA Considerations
+
+This document has no IANA actions.
+
+# Contributors
+Tony DeSimone, Kerstin Vignard, and Erin Hahn provided insight into the legal and policy issues surrounding emblems.
+Tommy Jensen, Felix Linker and Mauro Vignati provided many of the requirements that derive from digital asset use cases.
+
+--- back
+
+# Acknowledgments
+{:numbered="false"}
+
+TODO acknowledge.
