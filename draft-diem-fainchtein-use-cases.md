@@ -8,16 +8,16 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: DIEM Working Group
+# area: AREA
+# workgroup: DIEM Working Group
 keyword:
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: "rahelFain/diem-uses-and-requirements"
+  latest: "https://rahelFain.github.io/diem-uses-and-requirements/draft-diem-fainchtein-use-cases.html"
 
 author:
   -
@@ -112,7 +112,7 @@ Nations Security Council. The emblems of national governments and inter-governme
 pouches, couriers, and envoys under the Vienna Convention on Diplomatic Relations. Other marks enjoy protections against
 mis-use under the Paris Convention, the Madrid Protocol, and the Trade-Related Aspects of Intellectual Property Rights.
 
-This document provides an initial summary of problems placing emblems into digital use cases 
+This document provides an initial summary of problems placing emblems into digital use cases
 and documents identified requirements
 from a number of stakeholders with active or potential interests in digital emblems.
 TODO align abstract and document with the WG charter.
@@ -142,7 +142,7 @@ The contextual protections of physical emblems largely do not apply in the digit
 Because there are multiple use cases for digital emblems, some of which are fundamentally different
 from one another, it is not presumed that any one use of a digital emblem would necessarily have all or most of these requirements
 for a given implementation. In this vein, the working group will identify a core set of baseline requirements for digital emblems.
-Additional use cases will require further extensions. 
+Additional use cases will require further extensions.
 TODO move potential requirements which are outside the initial scope of the WG to a separate section.
 
 ## Potential Identification Requirements
@@ -180,7 +180,7 @@ To accomplish practical emblem distribution, digital emblems can have requiremen
 ## Potential Trust model requirements
 
 A digital emblem needs to be trustworthy in order to provide any value. This means that parties verifying the presence of emblems need to
-know that the asset bearing an emblem is entitled to do so for the declared asset, time frame, and other scopes. 
+know that the asset bearing an emblem is entitled to do so for the declared asset, time frame, and other scopes.
 
 - Be authorized by a party that has the legal authority to issue it,
 - Identify the authorizing party that issued it to ensure accountability of emblem use,
