@@ -136,7 +136,7 @@ mis-use under the Paris Convention, the Madrid Protocol, and the Trade-Related A
 This document provides an initial summary of problems placing emblems into digital use cases 
 and documents identified requirements
 from a number of stakeholders with active or potential interests in digital emblems.
-To Do: align abstract and document with the WG charter.
+TODO align abstract and document with the WG charter.
 
 
 --- middle
@@ -154,42 +154,17 @@ pouches, couriers, and envoys {{DIPLOMAT}}, and international law protects certa
 
 {::boilerplate bcp14-tagged}
 
-# Limitations of Physical Emblems
+# Notional Requirements for Digital Emblems
 
 Physical emblems have served a number of key functions over hundreds of years and continue to do so to this day.
-As technology advances and newer capabilities become
-available, it is beneficial to examine limitations with existing emblems and identify potential needs going forward.
-
-The following describes a number of limitations with physical emblems that may be addressed with digital emblems as complements.
-
-## Authenticity
-
-It is generally not possible to evaluate the authenticity of a physical emblem in real-time. Physical emblems do not carry any type of
-attestation from an authorized party indicating the validity of emblem. Mis-use of a physical emblem requires a post-facto investigation.
-
-## Visibility
-
-Physical emblems may not always be visible to an observing party. They can be difficult or impossible to see in the dark. The physical emblem
-may be deployed on the opposite side of an object from an observing party. They may be difficult to observe from a distance or at
-an oblique angle. The visibility of a physical emblem may be affected by wear, vandalism, or obfuscation.
-
-## Mis-use
-
-Physical emblems may not provide sufficient context to indicate the validity of their observed use. Physical emblems requested for use in a specific
-location and/or at a certain time can be re-used at other locations or times that are not authorized. Limited capabilities exist to correlate the
-validity of a physical emblem with specific locations, times, items, or people subject to protection. 
-
-## Management
-
-As noted above, potential mis-use of a physical emblem typically requires a post-facto investigation. There is no mechanism to revoke
-the instance of a physical emblem that has been abused, compromised, or is no longer valid.
-
-# Notional Requirements for Digital Emblems
+Traditional uses of physical emblems include processes and conventional use to mitigate potential misuse.
+The contextual protections of physical emblems largely do not apply in the digital world. The following describes a number of characteristics that are either required or desirable for digital emblems. In some cases, a digital emblem could accompany a physical emblem to provide these additional properties.
 
 Because there are multiple use cases for digital emblems, some of which are fundamentally different
 from one another, it is not presumed that any one use of a digital emblem would necessarily have all or most of these requirements
 for a given implementation. In this vein, the working group will identify a core set of baseline requirements for digital emblems.
-Additional use cases will require further extensions. ToDo: move potential requirements which are outside the initial scope of the WG to a separate section.
+Additional use cases will require further extensions. 
+TODO move potential requirements which are outside the initial scope of the WG to a separate section.
 
 ## Potential Identification Requirements
 
@@ -220,7 +195,6 @@ To accomplish practical emblem distribution, digital emblems can have requiremen
 - Not impose an undue cost to apply to or remove from an asset,
 - Not impose an undue cost to acquire authority to deploy,
 - Not require verifiers of the emblem to reveal to the emblem bearer that existence checking is occurring,
-- Not prevent verifiers of the emblem from revealing to the emblem bearer that existence checking is occurring,
 - Make it possible to view an emblem via a communications network,
 - Make it possible to view an emblem optically (e.g. QR code), or wirelessly (e.g. RFID) ToDo: this is an example of a potential requirement that will be outside the initial scope of the working group.
 
@@ -239,11 +213,7 @@ know that the asset bearing an emblem is entitled to do so for the declared asse
 - Be robust against being replayed by invalid bearers,
 - Be robust against forgery of its various properties.
 
-# Security Considerations
 
-A key part of this document highlights some risks surrounding physical emblems. Technical implementations of digital emblems will undoubtedly
-incur their own security considerations. However, this document does not propose technical solutions; it enumerates  use cases that justify
-creating technical solutions and potential requirements.  Many of the potential requirements pertain to possible security and privacy directions.
 
 
 # Use Cases for Digital Emblems
@@ -378,17 +348,25 @@ Specifies "Harmonized Systems" codes {{HARMONIZED}} that classify items such as 
 machinery, foodstuffs, etc. They also provide a system for labeling origin of items and valuation of items, all
 enforced by numerous international trade agreements between individual nations and groups of nations.
 
+# Security Considerations
+
+Technical implementations of digital emblems will undoubtedly
+incur their own security considerations. However, this document does not propose technical solutions; it enumerates  use cases that justify
+creating technical solutions and potential requirements.  Many of the potential requirements pertain to possible security and privacy directions.
+
 # IANA Considerations
 
 This document has no IANA actions.
+
+
+
+--- back
 
 # Contributors
 Tony DeSimone, Kerstin Vignard, and Erin Hahn provided insight into the legal and policy issues surrounding emblems.
 Tommy Jensen, Felix Linker and Mauro Vignati provided many of the requirements that derive from digital asset use cases.
 
---- back
-
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+Rohan Mahy provided insightful review.
