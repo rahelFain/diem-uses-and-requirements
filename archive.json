@@ -1,0 +1,201 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2025-07-06T01:21:42.348620+00:00",
+  "repo": "rahelFain/diem-uses-and-requirements",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOPF24Cs6dKm14",
+      "title": "Update draft-diem-fainchtein-use-cases.md",
+      "url": "https://github.com/rahelFain/diem-uses-and-requirements/pull/1",
+      "state": "MERGED",
+      "author": "amankin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Reworded the criticisms of physical emblems to soften them and say digital emblems are a complement Changed all the requirements to \"potential\" requirements and framed the list as material to draw from Noted in requirements a ToDo to move the bullets that are outside initial scope of the WG out of the main list and flagged one example of these Slightly strengthened security considerations\r\nMoved Ramsar Convention a bit higher up in the Use Cases",
+      "createdAt": "2025-07-02T23:19:13Z",
+      "updatedAt": "2025-07-02T23:31:40Z",
+      "baseRepository": "rahelFain/diem-uses-and-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "00778bfca513a38bc69f982b856730f5b08d67d8",
+      "headRepository": "amankin/diem-uses-and-requirements",
+      "headRefName": "patch-1",
+      "headRefOid": "4789393b1e344ccef3dac41b9f20e489376e3668",
+      "closedAt": "2025-07-02T23:31:40Z",
+      "mergedAt": "2025-07-02T23:31:40Z",
+      "mergedBy": "rahelFain",
+      "mergeCommit": {
+        "oid": "553cba93516b9ff8ff0d09ea4cce11ba14fc79d1"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOPF24Cs6dQw56",
+      "title": "Update draft-diem-fainchtein-use-cases.md - move back matter to end, add one requirement t",
+      "url": "https://github.com/rahelFain/diem-uses-and-requirements/pull/2",
+      "state": "MERGED",
+      "author": "amankin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Moved use cases section so it is not an appendix but appears before the back matter; this reads better\r\n\r\nAdded one missing notional requirement (not preventing a verifier from hiding their action) that can be better aligned with charter wording but holds the place now\r\n\r\nA few small unsubstantial fixes",
+      "createdAt": "2025-07-03T12:37:14Z",
+      "updatedAt": "2025-07-03T15:23:48Z",
+      "baseRepository": "rahelFain/diem-uses-and-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "553cba93516b9ff8ff0d09ea4cce11ba14fc79d1",
+      "headRepository": "amankin/diem-uses-and-requirements",
+      "headRefName": "patch-2",
+      "headRefOid": "70db7d2a9a1ab9ae2037650df86b82ac12d9dd84",
+      "closedAt": "2025-07-03T15:23:48Z",
+      "mergedAt": "2025-07-03T15:23:48Z",
+      "mergedBy": "rahelFain",
+      "mergeCommit": {
+        "oid": "103eacdcdb157bcf2865494572dc59ea652ab3bc"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOPF24Cs6dWQh-",
+      "title": "Fix YAML/Markdown syntax issues that kramdown-rfc dislikes.",
+      "url": "https://github.com/rahelFain/diem-uses-and-requirements/pull/3",
+      "state": "MERGED",
+      "author": "ohmantics",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "No editorial content changes.\r\n\r\nFYI, the setup.yml workflow is going to make a bunch of commits after this one when this is merged because the previous runs of that workflow failed.",
+      "createdAt": "2025-07-03T23:18:32Z",
+      "updatedAt": "2025-07-04T16:04:24Z",
+      "baseRepository": "rahelFain/diem-uses-and-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "103eacdcdb157bcf2865494572dc59ea652ab3bc",
+      "headRepository": "ohmantics/diem-uses-and-requirements",
+      "headRefName": "main",
+      "headRefOid": "b096a69f7e7eeb693fb037af696d08c6db126590",
+      "closedAt": "2025-07-04T16:04:24Z",
+      "mergedAt": "2025-07-04T16:04:24Z",
+      "mergedBy": "rahelFain",
+      "mergeCommit": {
+        "oid": "98127d3f05a61284aa9489a62cf432aa4995de2a"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOPF24Cs6dWts0",
+      "title": "Update draft-diem-fainchtein-use-cases.md to submittable form",
+      "url": "https://github.com/rahelFain/diem-uses-and-requirements/pull/4",
+      "state": "CLOSED",
+      "author": "amankin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "1. no longer critiques physical emblems - physical and digital are complementary \r\n2. a bit more about what Potential Requirements are\r\n3. moved uses cases to be in body of draft, placed Security Considerations after it",
+      "createdAt": "2025-07-04T01:18:32Z",
+      "updatedAt": "2025-07-04T16:51:34Z",
+      "baseRepository": "rahelFain/diem-uses-and-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "103eacdcdb157bcf2865494572dc59ea652ab3bc",
+      "headRepository": "amankin/diem-uses-and-requirements",
+      "headRefName": "patch-3",
+      "headRefOid": "6406ec9e3b0d807982a10ac4ef56591cbf4f52b2",
+      "closedAt": "2025-07-04T16:50:28Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "amankin",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "This PR was redundant with another PR that was merged - generated it when we were fixing our use of the templatized i-d tools and have now closed it.",
+          "createdAt": "2025-07-04T16:51:27Z",
+          "updatedAt": "2025-07-04T16:51:27Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOPF24Cs6dWzR_",
+      "title": "Update draft-diem-fainchtein-use-cases.md",
+      "url": "https://github.com/rahelFain/diem-uses-and-requirements/pull/5",
+      "state": "MERGED",
+      "author": "amankin",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-04T01:39:44Z",
+      "updatedAt": "2025-07-04T16:02:40Z",
+      "baseRepository": "rahelFain/diem-uses-and-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "103eacdcdb157bcf2865494572dc59ea652ab3bc",
+      "headRepository": "amankin/diem-uses-and-requirements",
+      "headRefName": "patch-4",
+      "headRefOid": "ee8945721bdee7bef719798ad2446db99bb432bf",
+      "closedAt": "2025-07-04T16:02:40Z",
+      "mergedAt": "2025-07-04T16:02:40Z",
+      "mergedBy": "rahelFain",
+      "mergeCommit": {
+        "oid": "d2084b06de91789cca67d04199b1b684d69cfdc3"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
